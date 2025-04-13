@@ -14,6 +14,9 @@ struct ContentView: View {
                 .font(.title)
                 .fontWeight(.semibold)
                 .foregroundStyle(.pink)
+            Text("Change 2")
+                .font(.callout)
+                .fontWeight(.medium)
         }
         .padding()
     }
