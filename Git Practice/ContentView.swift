@@ -17,6 +17,10 @@ struct ContentView: View {
             Text("Change 2")
                 .font(.callout)
                 .fontWeight(.medium)
+            Text("Change 3")
+                .font(.footnote)
+                .fontWeight(.light)
+                .foregroundColor(Color.blue)
         }
         .padding()
     }
